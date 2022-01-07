@@ -7,6 +7,7 @@ const Home = () => {
         <div>
             {/* banner components */}
             <Banner></Banner>
+            {/* Destination components */}
             <Destination></Destination>
         </div>
     );

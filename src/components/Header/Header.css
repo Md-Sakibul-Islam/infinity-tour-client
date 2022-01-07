@@ -4,11 +4,9 @@
   height: 50px;
 }
 .nav-container .nav-item {
-  font-size: 16px;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Poppins', sans-serif;
   transition: all;
   transition-duration: 0.1s;
   transition-timing-function: ease;
- font-weight: bolder;
 }
 

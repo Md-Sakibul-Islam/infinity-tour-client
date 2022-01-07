@@ -27,7 +27,7 @@ const Header = () => {
               {
                 user.email  && <><Nav.Link className="nav-item all-booking" as={Link} to="/allbooking">All Booking</Nav.Link>
                 <Nav.Link className="nav-item" as={Link} to="/mybooking">My Booking</Nav.Link>
-                <Nav.Link className="nav-item" as={Link} to="/newtour">Add New Tour</Nav.Link></>
+                <Nav.Link className="nav-item" as={Link} to="/addnewtour">Add New Tour</Nav.Link></>
               }
               <Nav.Link className="nav-item" as={Link} to="/about">About</Nav.Link>
               <Nav.Link className="nav-item" as={Link} to="/contact">Contact</Nav.Link>

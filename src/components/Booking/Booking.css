@@ -1,0 +1,22 @@
+
+/* style Start for background img  */
+.booking{
+    background-image: url(../../images/dubai-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+/* style ENd for background img  */
+
+
+
+/* style Start for  form main div  */
+.main-form-div{
+    padding: 20px;
+    background-color: white;
+    margin-top: 140px;
+    border-radius: 10px;
+}
+/* style End for  form main div  */

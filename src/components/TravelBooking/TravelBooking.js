@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
+import { useHistory } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import './TravelBooking.css'
 const TravelBooking = () => {
+    const history = useHistory();
     const[booked,setBooking] = useState({});
     const {id}= useParams();
     const url = `http://localhost:5000/travelbooking/${id}`;
@@ -12,7 +14,9 @@ const TravelBooking = () => {
         .then(data => setBooking(data))
     },[])
    
-
+const handleBooking =() =>{
+history.push(`/booking/${id}`)
+}
 
     return (
         <div className='container travel-booking'>
@@ -31,9 +35,8 @@ const TravelBooking = () => {
                         <h2>{booked?.title}</h2>
                         <p>{booked?.describe}</p>
                         <h5> Price: $ {booked?.price}</h5>
-                       <Button variant='secondary'>Book</Button>
+                        <Button onClick={handleBooking} variant="outline-dark">Book Now</Button>
                     </div>
-
                 </Col>
                 <Col className='mt-4'  sm={12} md={6} lg={6}>
                     <div className='ms-4'>

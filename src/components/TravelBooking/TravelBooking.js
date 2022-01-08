@@ -40,7 +40,7 @@ history.push(`/booking/${id}`)
                 </Col>
                 <Col className='mt-4'  sm={12} md={6} lg={6}>
                     <div className='ms-4'>
-                        <img src={booked.img}  className='img-fluid border border-rounded' alt="" />
+                        <img src={booked.img}  className='img-fluid tour-img' alt="" />
                     </div>
                 </Col>
                

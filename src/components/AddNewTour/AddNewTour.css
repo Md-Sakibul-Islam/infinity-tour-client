@@ -1,0 +1,17 @@
+.add-tour{
+    background-image: url(../../images/dubai-banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.main-form-container{
+    margin-top: 100px;
+    padding: 4%;
+    border-radius: 10px;
+    background-color: white;
+
+}
+

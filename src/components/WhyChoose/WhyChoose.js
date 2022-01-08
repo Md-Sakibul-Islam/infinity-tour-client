@@ -3,6 +3,9 @@ import { Card, Col, Row } from "react-bootstrap";
 import featureOne from "../../images/feature/feature-1.png";
 import featureTwo from "../../images/feature/feature-2.png";
 import featureThree from "../../images/feature/feature-3.png";
+import featureFour from "../../images/feature/feature-4.png";
+import featureFive from "../../images/feature/feature-5.png";
+import featureSix from "../../images/feature/feature-6.png";
 import "./WhyChoose.css";
 const WhyChoose = () => {
   return (
@@ -87,7 +90,7 @@ const WhyChoose = () => {
                   <Card.Img
                     variant="top"
                     className="img-fluid"
-                    src={featureThree}
+                    src={featureFour}
                   />
                 </div>
 
@@ -107,7 +110,7 @@ const WhyChoose = () => {
                   <Card.Img
                     variant="top"
                     className="img-fluid"
-                    src={featureThree}
+                    src={featureFive}
                   />
                 </div>
 
@@ -127,7 +130,7 @@ const WhyChoose = () => {
                   <Card.Img
                     variant="top"
                     className="img-fluid"
-                    src={featureThree}
+                    src={featureSix}
                   />
                 </div>
 

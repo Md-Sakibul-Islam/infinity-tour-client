@@ -92,19 +92,7 @@ const handleAddressChange = e => {
         </Col>
       </Row>
      </div>
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
-     <br />
+    
     </div>
   );
 };

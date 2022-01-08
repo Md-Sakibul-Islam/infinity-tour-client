@@ -35,7 +35,7 @@ const Header = () => {
             </Nav>
            <span className="text-white"> {user.displayName}</span>
             {
-              user.email ? <Button variant="dark" onClick={logOut}>LogOut</Button> :<Button onClick={handleLoginBtn} variant="dark">Login</Button>
+              user.email ? <Button className="btn-text" variant="dark" onClick={logOut}>LogOut</Button> :<Button onClick={handleLoginBtn} className="btn-text" variant="dark">Login</Button>
             }
           </Navbar.Collapse>
         </Container>

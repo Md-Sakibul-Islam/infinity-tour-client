@@ -5,6 +5,8 @@ import AddNewTour from "./components/AddNewTour/AddNewTour";
 import AllBooking from "./components/AllBooking/AllBooking";
 import Booking from "./components/Booking/Booking";
 import Destination from "./components/Destination/Destination";
+import Footer from "./components/Footer/Footer";
+import FooterCopy from "./components/FooterCopy/FooterCopy";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
@@ -51,6 +53,9 @@ function App() {
             <Login></Login>
           </Route>
         </Switch>
+
+        <Footer></Footer>
+        <FooterCopy></FooterCopy>
       </Router>
     </AuthProvider>
   );

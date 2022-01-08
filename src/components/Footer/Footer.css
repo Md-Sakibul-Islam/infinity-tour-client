@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 100px;
+    background-color: #282835;
+   
+}
+.address-contact{
+    color: white;
+    padding: 2%;
+    margin-top: 5%;
+}
+.footer-info{
+   margin-left: 5%;
+   font-size: 13px;
+   cursor: pointer;
+   font-family: 'Poppins', sans-serif;
+}

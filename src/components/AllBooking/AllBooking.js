@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Table } from "react-bootstrap";
+import { Button, Col, Row, Table } from "react-bootstrap";
 import deleteLogo from '../../images/delete.png'
 import './AllBooking.css'
 const AllBooking = () => {
@@ -30,9 +30,11 @@ const handleDelete = id => {
 }
   return (
     <div className="container all-booking-list">
-      <div className="text-center text-danger mb-2">
+      <div className="text-center text-danger all-booking-table mb-2">
         <h5>All Booking List</h5>
-        <Table striped bordered hover>
+        <Row>
+          <Col sm={12} md={12} lg={12}>
+          <Table striped bordered hover>
         <thead>
           <tr>
             <th></th>
@@ -67,6 +69,8 @@ const handleDelete = id => {
         
         </tbody>
       </Table>
+          </Col>
+        </Row>
 
 
 

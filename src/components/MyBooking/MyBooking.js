@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Table } from "react-bootstrap";
+import { Button, Col, Row, Table } from "react-bootstrap";
 import useAuth from "../../Hooks/useAuth";
 import deleteLogo from "../../images/delete.png";
 import "./MyBooking.css";
@@ -37,7 +37,10 @@ const MyBooking = () => {
       <div className="text-center text-danger mb-2">
         <h5>My Booking List</h5>
       </div>
-      <Table striped bordered hover>
+      <div className="my-booking-table">
+      <Row>
+        <Col sm={12} md={12} lg={12}>
+        <Table striped bordered hover>
         <thead>
           <tr>
             <th></th>
@@ -70,6 +73,9 @@ const MyBooking = () => {
           ))}
         </tbody>
       </Table>
+        </Col>
+      </Row>
+      </div>
     </div>
   );
 };

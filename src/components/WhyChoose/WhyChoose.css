@@ -1,0 +1,41 @@
+/* main div style start  */
+.choose-card-container{
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 33px;
+    
+}
+/* main div style End  */
+/* why choose title style start  */
+.why-choose{
+    margin-top: 100px;
+}
+.offer-text{
+    font-size: 20px;
+}
+/* why choose title style End  */
+
+/* card style start  */
+.feature-card{
+    margin-top: 40px;
+    border: 0px;
+    padding: 2%;
+    height: 300px;
+    transition: all;
+    transform: scale(1);
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in;
+}
+.feature-card:hover{
+    transform: scale(1.02);
+    border: 0.5px solid lightgray;
+    box-shadow: 10px 10px 10px lightgray;
+}
+/* card style End  */
+/* card text style start  */
+.feature-info{
+    font-size: 16px;
+    text-align: justify;
+}
+/* card text style End  */

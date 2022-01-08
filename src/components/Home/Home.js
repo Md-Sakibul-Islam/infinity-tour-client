@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Destination from '../Destination/Destination';
+import WhyChoose from '../WhyChoose/WhyChoose';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner></Banner>
             {/* Destination components */}
             <Destination></Destination>
+            <WhyChoose></WhyChoose>
         </div>
     );
 };

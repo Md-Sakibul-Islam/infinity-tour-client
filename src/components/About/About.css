@@ -26,6 +26,7 @@ font-weight: bold;
 }
 .about-img {
     border-radius: 10px;
+    box-shadow: 10px 10px 10px lightgray;
 }
 .team-card{
     box-shadow: 10px 10px 10px lightgray;

@@ -26,11 +26,8 @@ const About = () => {
                 <span className="text-danger">Infinity Tour Inc</span> .
               </h2>
               <p className="about-para">
-                We are trusted by our clients and have a reputation for the best
-                services in the field. Lorem ipsum is simply free text dolor sit
-                amett consectetur adipiscing elit. It is a long established fact
-                that a reader will be distracted by the readable content of a
-                page.
+              Infinity Tour is a World Leading Online Tour Booking Platform.
+              We know that planning the trip of a lifetime is exciting. That's why we have set up this easy-to-use web site.We are always ready for adventure . 
               </p>
               <h4>Best Services</h4>
               <ProgressBar now={80} label={`${80}%`} />

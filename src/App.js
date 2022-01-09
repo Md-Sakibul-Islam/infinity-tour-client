@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import AddNewTour from "./components/AddNewTour/AddNewTour";
 import AllBooking from "./components/AllBooking/AllBooking";
 import Booking from "./components/Booking/Booking";
+import Contact from "./components/Contact/Contact";
 import Destination from "./components/Destination/Destination";
 import Footer from "./components/Footer/Footer";
 import FooterCopy from "./components/FooterCopy/FooterCopy";
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <PrivateRoute path="/travelbooking/:id">
             <TravelBooking></TravelBooking>

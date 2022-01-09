@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import About from "./components/About/About";
 import AddNewTour from "./components/AddNewTour/AddNewTour";
 import AllBooking from "./components/AllBooking/AllBooking";
 import Booking from "./components/Booking/Booking";
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/travels">
             <Destination></Destination>
+          </Route>
+          <Route path="/about">
+            <About></About>
           </Route>
           <PrivateRoute path="/travelbooking/:id">
             <TravelBooking></TravelBooking>

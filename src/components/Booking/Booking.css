@@ -6,7 +6,6 @@
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
 }
 /* style ENd for background img  */
 
@@ -18,5 +17,7 @@
     background-color: white;
     margin-top: 140px;
     border-radius: 10px;
+    margin-bottom: 100px;
+    
 }
 /* style End for  form main div  */

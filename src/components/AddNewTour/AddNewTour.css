@@ -4,11 +4,12 @@
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    
 }
 
 .main-form-container{
     margin-top: 100px;
+    margin-bottom: 100px;
     padding: 4%;
     border-radius: 10px;
     background-color: white;

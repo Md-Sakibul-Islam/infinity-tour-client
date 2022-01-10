@@ -18,6 +18,7 @@ import AuthProvider from "./Context/AuthProvider";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import NotFound from "./components/NotFound/NotFound";
 AOS.init({
   duration:2000
 })
@@ -66,6 +67,10 @@ function App() {
 
           <Route path="/login">
             <Login></Login>
+          </Route>
+
+          <Route path='*'>
+            <NotFound></NotFound>
           </Route>
         </Switch>
 

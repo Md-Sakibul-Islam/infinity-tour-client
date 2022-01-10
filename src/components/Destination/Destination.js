@@ -9,7 +9,7 @@ const Destination = () => {
   const [tours, setTours] = useState([]);
 // fetch tours all data
   useEffect(() => {
-    fetch("http://localhost:5000/tours")
+    fetch("https://ancient-scrubland-42936.herokuapp.com/tours")
       .then((res) => res.json())
       .then((data) => setTours(data));
   }, []);

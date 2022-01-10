@@ -16,7 +16,7 @@ const Booking = () => {
   const { user } = useAuth();
   const [booked, setBooked] = useState({});
   const { id } = useParams();
-  const url = `http://localhost:5000/travelbooking/${id}`;
+  const url = `https://ancient-scrubland-42936.herokuapp.com/travelbooking/${id}`;
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
@@ -35,7 +35,7 @@ const Booking = () => {
     };
 
     // hitting post api
-    fetch("http://localhost:5000/booking", {
+    fetch("https://ancient-scrubland-42936.herokuapp.com/booking", {
       method: "post",
       headers: {
         "content-type": "application/json",

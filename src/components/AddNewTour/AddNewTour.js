@@ -16,7 +16,7 @@ const AddNewTour = () => {
         const img = imgRef.current.value;
         const price = priceRef.current.value;
         const tour = {title,describe,img,price};
-        fetch('http://localhost:5000/tours',{
+        fetch('https://ancient-scrubland-42936.herokuapp.com/tours',{
             method:'post',
             headers:{
                 'content-type':'application/json'

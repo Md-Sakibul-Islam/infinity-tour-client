@@ -7,7 +7,7 @@ const TravelBooking = () => {
   const history = useHistory();
   const [booked, setBooking] = useState({});
   const { id } = useParams();
-  const url = `http://localhost:5000/travelbooking/${id}`;
+  const url = `https://ancient-scrubland-42936.herokuapp.com/travelbooking/${id}`;
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())

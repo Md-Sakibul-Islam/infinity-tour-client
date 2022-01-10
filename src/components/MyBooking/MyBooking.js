@@ -7,7 +7,7 @@ const MyBooking = () => {
   const { user } = useAuth();
   const [myBooking, setMyBooking] = useState([]);
 
-  const url = `http://localhost:5000/mybooking/${user.email}`;
+  const url = `https://ancient-scrubland-42936.herokuapp.com/mybooking/${user.email}`;
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
@@ -18,7 +18,7 @@ const MyBooking = () => {
   const handleDelete = (id) => {
     const proceed= window.confirm('Are Your Sure, You Want to delete?')
     if(proceed){
-      fetch(`http://localhost:5000/mybooking/${user.email}/${id}`, {
+      fetch(`https://ancient-scrubland-42936.herokuapp.com/mybooking/${user.email}/${id}`, {
         method: "delete",
       })
         .then((res) => res.json())

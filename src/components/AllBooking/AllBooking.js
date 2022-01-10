@@ -5,7 +5,7 @@ import './AllBooking.css'
 const AllBooking = () => {
 const[allBooking,setAllBooking]= useState([]);
 useEffect(()=>{
-    fetch('http://localhost:5000/allbooking')
+    fetch('https://ancient-scrubland-42936.herokuapp.com/allbooking')
     .then(res => res.json())
     .then(data => setAllBooking(data))
 },[])
@@ -13,7 +13,7 @@ useEffect(()=>{
 const handleDelete = id => {
     const proceed = window.confirm('Are You Sure, You want to Delete ?');
     if(proceed){
-        fetch(`http://localhost:5000/allbooking/${id}`,{
+        fetch(`https://ancient-scrubland-42936.herokuapp.com/allbooking/${id}`,{
             method:'delete'
         })
         .then(res => res.json())

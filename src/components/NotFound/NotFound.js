@@ -7,7 +7,7 @@ const NotFound = () => {
         <div className='container not-found-container'>
             <div className="container">
                 <Row>
-                    <Col sm={12} md={12} lg={12}>
+                    <Col className='mx-auto' sm={12} md={7} lg={7}>
                         <img src={notFound} className='img-fluid' alt="" />
                     </Col>
                 </Row>

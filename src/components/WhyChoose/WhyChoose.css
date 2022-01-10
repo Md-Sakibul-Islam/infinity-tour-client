@@ -24,8 +24,9 @@
     height: 300px;
     transition: all;
     transform: scale(1);
-    transition-duration: 0.8s;
-    transition-timing-function: ease-in;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    
 }
 .feature-card:hover{
     transform: scale(1.02);

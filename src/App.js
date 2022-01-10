@@ -16,8 +16,15 @@ import MyBooking from "./components/MyBooking/MyBooking";
 import TravelBooking from "./components/TravelBooking/TravelBooking";
 import AuthProvider from "./Context/AuthProvider";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+  duration:2000
+})
 
 function App() {
+
+
   return (
     <AuthProvider>
       <Router>

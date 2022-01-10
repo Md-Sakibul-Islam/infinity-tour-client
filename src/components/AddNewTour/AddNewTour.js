@@ -43,7 +43,7 @@ const AddNewTour = () => {
           
         <Row>
           <Col className="mx-auto" sm={12} md={5} lg={5}>
-           <div className="main-form-container">
+           <div className="main-form-container" data-aos="fade-up">
            <div className="text-center">
               <h3>Add New <span className="text-danger"> Tour</span> </h3>
           </div>

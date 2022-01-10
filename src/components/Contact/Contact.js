@@ -7,11 +7,13 @@ import sFour from "../../images/social/twit.png";
 import "./Contact.css";
 const Contact = () => {
   return (
-    <div className="container contact-container">
+    <div className="container-fluid contact-container">
       <div className="container mt-5">
           
+        <div className="container">
         <Row>
-          <Col sm={12} md={5} lg={5}>
+          <Col className="ms-1" sm={12} md={5} lg={5}>
+            <div data-aos="fade-right">
             <small className="text-danger">Talk with our Team</small>
             <h1>Any Question? Feel Free to Contact</h1>
             <p className="contact-info">
@@ -32,8 +34,10 @@ const Contact = () => {
                 <img src={sFour} alt="" />
               </span>
             </div>
+            </div>
           </Col>
-          <Col className="ms-auto" sm={12} md={7} lg={7}>
+          <Col className="me-auto" sm={12} md={6} lg={6} >
+            <div data-aos="fade-left">
             <Form>
               <Form.Group className="mb-3" controlId="formBasicText">
                 <Form.Control type="text"  placeholder="Enter Your Name" />
@@ -59,8 +63,10 @@ const Contact = () => {
                 Send A Message
               </Button>
             </Form>
+            </div>
           </Col>
         </Row>
+        </div>
       </div>
 
     </div>

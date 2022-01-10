@@ -12,15 +12,15 @@ const About = () => {
   return (
     <div className="container-fluid about-container">
       <div className="container">
-        <h1>
+        <h1 data-aos="fade-down">
           About <span className="text-danger">Infinity Tour</span>
         </h1>
         <Row className="mt-5">
-          <Col sm={12} md={6} lg={6}>
+          <Col sm={12} md={5} lg={5} data-aos="fade-right">
             <img src={aboutImg} className="img-fluid about-img" alt="" />
           </Col>
-          <Col className="" sm={12} md={6} lg={6}>
-            <div>
+          <Col className="" sm={12} md={5} lg={5}>
+            <div data-aos="fade-left">
               <h2>
                 Welcome to{" "}
                 <span className="text-danger">Infinity Tour Inc</span> .
@@ -36,7 +36,7 @@ const About = () => {
             </div>
           </Col>
         </Row>
-        <div className="mt-5 about-info text-center">
+        <div className="mt-5 about-info text-center" data-aos="fade-up">
           <p className="about-title">
             Top Tour Operators and Travel Agency. We offering in total 793 tours
             and holidays through-out the world. Combined we have received 1532
@@ -143,7 +143,7 @@ const About = () => {
         </div>
 
         <div className="team mt-5">
-          <div className="text-center">
+          <div className="text-center" data-aos="fade-down">
             <small className="text-danger">professional people</small>
             <h2>Meat The Team</h2>
           </div>
@@ -151,7 +151,7 @@ const About = () => {
           <div className="team-member mt-5">
             <Row xs={1} md={4} className="g-4">
               <Col>
-                <Card className="team-card">
+                <Card className="team-card" data-aos="fade-up">
                   <Card.Img variant="top" src={teamOne} className="img-fluid" />
                   <Card.Body>
                     <Card.Title className="text-center">Fread Andrew</Card.Title>
@@ -163,7 +163,7 @@ const About = () => {
               </Col>
 
               <Col>
-                <Card className="team-card">
+                <Card className="team-card" data-aos="fade-up">
                   <Card.Img variant="top" src={teamTwo} className="img-fluid" />
                   <Card.Body>
                     <Card.Title className="text-center">Jessica Brown</Card.Title>
@@ -174,7 +174,7 @@ const About = () => {
                 </Card>
               </Col>
               <Col>
-                <Card className="team-card">
+                <Card className="team-card" data-aos="fade-up">
                   <Card.Img variant="top" src={teamThree} className="img-fluid" />
                   <Card.Body>
                     <Card.Title className="text-center"> David Hardson</Card.Title>
@@ -185,7 +185,7 @@ const About = () => {
                 </Card>
               </Col>
               <Col>
-                <Card className="team-card">
+                <Card className="team-card" data-aos="fade-up">
                   <Card.Img variant="top" src={teamFour} className="img-fluid" />
                   <Card.Body>
                     <Card.Title className="text-center">samantha dorrance</Card.Title>

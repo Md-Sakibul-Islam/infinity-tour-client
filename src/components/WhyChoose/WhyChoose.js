@@ -11,10 +11,10 @@ const WhyChoose = () => {
   return (
     <div className="container why-choose">
       <div className="container">
-        <h3 className="text-center">
+        <h3 className="text-center" data-aos="fade-up">
           Why Choose <span className="text-danger">Infinity Tour</span>{" "}
         </h3>
-        <p className="text-center offer-text">
+        <p className="text-center offer-text" data-aos="fade-up">
           We offer most competitive rates and offers for wonderful and beautiful
           places.
         </p>
@@ -22,7 +22,7 @@ const WhyChoose = () => {
         <div className="choose-card-container">
           <Row xs={1} md={3} className="g-4">
             <Col>
-              <Card className="feature-card">
+              <Card className="feature-card" data-aos="fade-up">
                 <div className="mx-auto">
                   <Card.Img
                     variant="top"
@@ -43,7 +43,7 @@ const WhyChoose = () => {
               </Card>
             </Col>
             <Col>
-              <Card className="feature-card">
+              <Card className="feature-card" data-aos="fade-up">
                 <div className="mx-auto">
                   <Card.Img
                     variant="top"
@@ -64,7 +64,7 @@ const WhyChoose = () => {
               </Card>
             </Col>
             <Col>
-              <Card className="feature-card">
+              <Card className="feature-card" data-aos="fade-up">
                 <div className="mx-auto">
                   <Card.Img
                     variant="top"
@@ -85,7 +85,7 @@ const WhyChoose = () => {
               </Card>
             </Col>
             <Col>
-              <Card className="feature-card">
+              <Card className="feature-card" data-aos="fade-up">
                 <div className="mx-auto">
                   <Card.Img
                     variant="top"
@@ -105,7 +105,7 @@ const WhyChoose = () => {
               </Card>
             </Col>
             <Col>
-              <Card className="feature-card">
+              <Card className="feature-card" data-aos="fade-up">
                 <div className="mx-auto">
                   <Card.Img
                     variant="top"
@@ -125,7 +125,7 @@ const WhyChoose = () => {
               </Card>
             </Col>
             <Col>
-              <Card className="feature-card">
+              <Card className="feature-card" data-aos="fade-up">
                 <div className="mx-auto">
                   <Card.Img
                     variant="top"

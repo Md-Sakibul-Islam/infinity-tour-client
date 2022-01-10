@@ -10,15 +10,15 @@ import "./Blog.css";
 const Blog = () => {
   return (
     <div className="container blog-main-section">
-      <h3 className="text-center blog-heading">Recent from Blog</h3>
-      <p className="text-center blog-title">
+      <h3 className="text-center blog-heading" data-aos="fade-up">Recent from Blog</h3>
+      <p className="text-center blog-title" data-aos="fade-up">
         Find out our latest news, promotions and professional tips.
       </p>
 
       <div className="blog-feature mt-5">
         <Row xs={1} md={3} className="g-4">
-          <Col>
-            <Card>
+          <Col className="blog-col">
+            <Card className="blog-card" data-aos="fade-up">
               <Card.Img variant="top" src={blogOne} />
               <Card.Body>
                 <Card.Title>Try Living A Simple Life</Card.Title>
@@ -49,7 +49,7 @@ const Blog = () => {
 
 
           <Col>
-            <Card>
+            <Card className="blog-card" data-aos="fade-up">
               <Card.Img variant="top" src={blogThree} />
               <Card.Body>
                 <Card.Title>Start Writing A Journal</Card.Title>
@@ -79,7 +79,7 @@ const Blog = () => {
           </Col>
 
           <Col>
-            <Card>
+            <Card className="blog-card" data-aos="fade-up">
               <Card.Img variant="top" src={blogTwo} />
               <Card.Body>
                 <Card.Title>Make Running A Part of Life</Card.Title>

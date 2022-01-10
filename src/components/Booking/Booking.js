@@ -61,7 +61,7 @@ const Booking = () => {
 
   return (
     <div className="container-fluid booking">
-      <div>
+      <div data-aos="fade-up">
         {/* Booking form Area start */}
         <Row>
           <Col className="mx-auto" sm={12} md={5} lg={5}>

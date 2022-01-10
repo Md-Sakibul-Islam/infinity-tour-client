@@ -10,8 +10,8 @@ const ShowDestination = (props) => {
     }
     return (
         <div>
-            <Col>
-            <Card className='tour-card'>
+            <Col className='tour-col'>
+            <Card className='tour-card' data-aos="fade-up">
               <Card.Img variant="top" src={img} className='img-fluid' />
               <Card.Body>
                 <Card.Title className='tour-title'>{title}</Card.Title>

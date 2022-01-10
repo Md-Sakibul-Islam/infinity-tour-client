@@ -13,7 +13,7 @@ const Destination = () => {
       .then((res) => res.json())
       .then((data) => setTours(data));
   }, []);
-
+ 
   return (
     <div className="container destination-container">
       <div className="text-center">

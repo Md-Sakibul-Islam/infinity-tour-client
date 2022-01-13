@@ -8,13 +8,15 @@ const Destination = () => {
   // tours state
   const [tours, setTours] = useState([]);
 // fetch tours all data
-const url = "https://ancient-scrubland-42936.herokuapp.com/tours"
+
   useEffect(() => {
-    fetch(url)
+    setTimeout(() => {
+      fetch("https://ancient-scrubland-42936.herokuapp.com/tours")
       .then((res) => res.json())
       .then((data) => setTours(data));
-  }, [url]);
- 
+    }, 2000);
+  },[]);
+
   return (
     <div className="container destination-container">
       <div className="text-center">
